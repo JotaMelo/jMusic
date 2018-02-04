@@ -1,0 +1,30 @@
+{
+    "id": "123",
+    "user_name": "fulana22k",
+    "email": "fulana22k@hotmail.com",
+    "is_first_login": true,
+    "likes_pizza": "true",
+    "register_date": "2015/08/21 15:45:45",
+    "favorite_pizza": {
+        "pizza_id": 5,
+        "name": "Catuperoni",
+        "number_of_ingredients": null,
+        "size": 1
+    },
+    "OrderedPizzas": [{
+                      "pizza_id": 5,
+                      "name": "Catuperoni",
+                      "number_of_ingredients": "3",
+                      "size": 2
+                      }, {
+                      "pizza_id": 10,
+                      "name": "Calabresa",
+                      "number_of_ingredients": null,
+                      "size": 0,
+                      "testDictionary": {
+                        "nested": [
+                            {"key": "value123"}
+                        ]
+                      }
+                      }]
+}
